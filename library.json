@@ -1,0 +1,16 @@
+{
+  "name": "UNIT_SONIC",
+  "description": "Library for M5Stack UNIT SONIC",
+  "keywords": "M5Stack UNIT SONIC",
+  "authors": {
+    "name": "M5Stack",
+    "url": "http://www.m5stack.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m5stack/UNIT_SONIC.git"
+  },
+  "version": "0.0.1",
+  "framework": "arduino",
+  "platforms": "espressif32"
+}
