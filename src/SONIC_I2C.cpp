@@ -21,7 +21,7 @@ float SONIC_I2C::getDistance() {
   Wire.beginTransmission(_addr); //Transfer data to 0x57.  将数据传输到0x57
   Wire.write(0x01);
   Wire.endTransmission(); //Stop data transmission with the Ultrasonic Unit.  停止与Ultrasonic Unit的数据传输
-  delay(10);
+  delay(50);
   Wire.requestFrom(_addr, 3); //Request 3 bytes from Ultrasonic Unit.  向Ultrasonic Unit请求3个字节。
   data  = Wire.read();data <<= 8;
   data |= Wire.read();data <<= 8;
