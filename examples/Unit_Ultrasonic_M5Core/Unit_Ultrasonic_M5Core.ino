@@ -31,7 +31,7 @@ void setup() {
 void loop() {
     static float newvalue = 0;
     newvalue              = sensor.getDistance();
-    if ((newvalue < 1500) && (newvalue > 20)) {
+    if ((newvalue < 4000) && (newvalue > 20)) {
         M5.Lcd.setCursor(105, 27);
         M5.Lcd.printf("%.2fmm", newvalue);
     }
