@@ -7,15 +7,16 @@
 * 获取更多资料请访问：https://docs.m5stack.com/zh_CN/unit/sonic.io
 *
 * Describe: Ultrasonic.  超声波测距传感器 IO版本
-* Date：2021/11/17
+* Date：2022/7/21
 *******************************************************************************
   Please connect to Port A,Display the distance measured by ultrasonic
   请连接端口B,显示超声波测量的距离
 */
 
-#include <M5GFX.h>
 #include <M5Stack.h>
-#include <UNIT_SONIC.h>
+#include <M5GFX.h>
+#include <Unit_Sonic.h>
+
 M5GFX display;
 M5Canvas canvas(&display);
 
