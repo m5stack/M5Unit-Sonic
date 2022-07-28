@@ -4,7 +4,7 @@
  *
  * @Links [Unit Sonic I2C](https://docs.m5stack.com/en/unit/sonic.i2c)
  * @Links [Unit Sonic IO](https://docs.m5stack.com/en/unit/sonic.io)
- * @version  V0.0.1
+ * @version  V0.0.2
  * @date  2022-07-21
  */
 #ifndef _UNIT_SONIC_H_
@@ -12,7 +12,7 @@
 
 #include "Arduino.h"
 #include "Wire.h"
-#include "Pins_Arduino.h"
+#include "pins_arduino.h"
 
 class SONIC_I2C {
    private:
