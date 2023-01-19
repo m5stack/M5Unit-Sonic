@@ -19,7 +19,7 @@
 SONIC_I2C sensor;
 
 void setup() {
-    M5.begin(true, true, fasle);  // Init M5Atom.  初始化M5Atom
+    M5.begin(true, true, false);  // Init M5Atom.  初始化M5Atom
     sensor.begin();
 }
 
